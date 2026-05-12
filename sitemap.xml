@@ -56,6 +56,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/ai-body-composition-tracking-beyond-the-scale.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/ai-stress-management-fitness-recovery.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ai-body.thealpha-secret.xyz/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
