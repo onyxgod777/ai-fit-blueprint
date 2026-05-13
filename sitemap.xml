@@ -66,6 +66,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/ai-strength-training-periodization-adaptive-programming.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/ai-hrv-training-cardiovascular-fitness.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-05-13</lastmod>
+  </url>
+  <url>
     <loc>https://ai-body.thealpha-secret.xyz/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
