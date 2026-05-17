@@ -234,6 +234,83 @@
             background-size: 60px 60px;
             pointer-events: none;
         }
+        /* ── Video Reel Section ── */
+        .video-reel {
+            background: linear-gradient(180deg, #16213e 0%, #0a0f1a 100%);
+            color: #fff;
+            padding: 64px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .video-reel h2 {
+            margin-bottom: 8px;
+        }
+        .video-reel .subtitle {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.95rem;
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+        .reel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .reel-card {
+            background: rgba(255,255,255,0.06);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            aspect-ratio: 9/16;
+            max-width: 260px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .reel-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+            border-color: rgba(96,165,250,0.3);
+        }
+        .reel-card video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .reel-card .reel-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 12px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            text-align: left;
+        }
+        .reel-card .reel-overlay span {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: #60a5fa;
+            display: block;
+        }
+        .reel-cta {
+            display: inline-block;
+            margin-top: 28px;
+            color: rgba(255,255,255,0.6);
+            font-size: 0.88rem;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            padding-bottom: 2px;
+            transition: color .2s, border-color .2s;
+        }
+        .reel-cta:hover { color: #60a5fa; border-color: #60a5fa; }
+        @media (max-width: 640px) {
+            .reel-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+            .reel-card { max-width: none; }
+        }
     </style>
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -383,6 +460,37 @@
         </a>
         <p class="guarantee">🔒 Secure checkout via ClickBank · 60-day money-back guarantee</p>
     </section>
+
+    <!-- ═══ ASMR REELS ═══ -->
+    <section class="video-reel" id="reels" aria-label="ASMR fitness video reels">
+        <div class="container">
+            <h2>🎬 Watch Your Body Transform</h2>
+            <p class="subtitle">Short, satifying AI-powered ASMR visuals to inspire your fitness journey.</p>
+            <div class="reel-grid" id="reelGrid">
+                <p style="color:rgba(255,255,255,0.4);grid-column:1/-1;font-size:0.9rem;">Loading videos...</p>
+            </div>
+            <a href="videos.html" class="reel-cta">View all reels →</a>
+        </div>
+    </section>
+
+    <script>
+    fetch('videos.json')
+      .then(r => r.json())
+      .then(function(data) {
+        var grid = document.getElementById('reelGrid');
+        if (!grid || !data.videos) return;
+        var aibody = data.videos.filter(function(v) { return v.site === 'ai-body'; });
+        var h = aibody.slice(0, 4).map(function(v) {
+          return '<div class="reel-card"><video src="' + v.url + '" muted loop playsinline preload="metadata" onmouseenter="this.play()" onmouseleave="this.pause();this.currentTime=0"></video><div class="reel-overlay"><span>' + v.hook + '</span></div></div>';
+        }).join('');
+        if (!h) h = '<p style="color:rgba(255,255,255,0.4);grid-column:1/-1;font-size:0.9rem;">New reels coming soon. Check back tomorrow!</p>';
+        grid.innerHTML = h;
+      })
+      .catch(function() {
+        var grid = document.getElementById('reelGrid');
+        if (grid) grid.innerHTML = '<p style="color:rgba(255,255,255,0.4);grid-column:1/-1;font-size:0.9rem;">Reels loading...</p>';
+      });
+    </script>
 
     <!-- ═══ FOOTER ═══ -->
     <footer>
