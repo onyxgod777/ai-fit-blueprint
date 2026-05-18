@@ -1,6 +1,6 @@
 {
   "site": "ai-body",
-  "updated": "2026-05-17T16:18:00.000Z",
+  "updated": "2026-05-18T14:08:22.811Z",
   "videos": [
     {
       "id": "aibody-001",
@@ -8,6 +8,14 @@
       "hook": "Embrace the grind",
       "prompt": "Deadlift in gym",
       "generated": "2026-05-17T16:16:00.000Z",
+      "posted": false
+    },
+    {
+      "id": "aibody-002",
+      "url": "https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/885006838557708306/VIDEO/20260518/c3ec3bf378b4fcb7ec74c1ca5c5b795c-0d6a5db1-45aa-4c17-997e-f3de4e6c0c79.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFXkfTQwjadxdhUx-opSTTF6SOvWzof5VaN5dgh-Qz1oukZ3x6tsxiN9Gmj1sOjM2KzLYXePiINHA_lvA1Ku0YVa_GXW2s4J6LBvLXiDeNEYEdG4OR7HNshIcZy8nsL_Mh4N63wI5YrQacSY4-oHozjQNmm-quJ6l3OSmUZ65igdQzSeP_M8L0TatFbt4CvXnYyp62Nbem0pAQQyqYzTIQ9sOr7gThHPJT7XyurDavtphoSNzwANz7xQHQ1n3QnpfpV26ryIiCS9yR5mOssJ6qPy3UPHJi8K9GnAfN7OuYfJmEmEIzp4ygFMAE&x-kcdn-pid=112781&ksSecret=23fdcb0657d8fba2a590031a01b10689&ksTime=6a32aa54",
+      "hook": "No excuses",
+      "prompt": "A person running on a treadmill, sweat glistening on skin",
+      "generated": "2026-05-18T14:08:22.809Z",
       "posted": false
     }
   ]
