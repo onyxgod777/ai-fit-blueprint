@@ -1,6 +1,6 @@
 {
   "site": "ai-body",
-  "updated": "2026-05-18T14:08:22.811Z",
+  "updated": "2026-05-21T14:06:55.305Z",
   "videos": [
     {
       "id": "aibody-001",
@@ -16,6 +16,14 @@
       "hook": "No excuses",
       "prompt": "A person running on a treadmill, sweat glistening on skin",
       "generated": "2026-05-18T14:08:22.809Z",
+      "posted": false
+    },
+    {
+      "id": "aibody-003",
+      "url": "https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/885006838557708306/VIDEO/20260521/6731f2ea082341f909791207e7fb035e-d85c9aae-0d4e-4bf1-8b59-92429ca46a40.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFciUnvDUxV9ZgyfqegJckjKtdkcPGG-cVuSiZu9Ny7-Zx1g8vbwE0rwA_KXs-yAnyBguoaLHPRw6ampMTowzfuouTy6hdw16YoiIVzpARCQgVcuQaCPuuMPfMM0khrfIb6ZTu3h8TaENirmv14OzZp1ovZ2MHECgK94WI8PybP7z8jjjLZzZ4TXjbvr02AndsSGdOMWF19C7-uStpZx7zfqihEcn1_oiCmPnV9U4BuyRoS2DBhfBJlmsA0VO38d82MTxzXIiAK8XXunj5K3RHBnhV5pEW2jI8NUIHi_sMBWzuXjSvfUCgFMAE&x-kcdn-pid=112781&ksSecret=791a5c042db5f6293578dd555eda9162&ksTime=6a369e7e",
+      "hook": "Built different",
+      "prompt": "A person doing a pull-up, back muscles engaging, controlled movement up and down, gym setting, dramatic side lighting highlighting muscle definition, slow motion athletic motion",
+      "generated": "2026-05-21T14:06:55.305Z",
       "posted": false
     }
   ]
