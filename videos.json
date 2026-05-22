@@ -1,6 +1,6 @@
 {
   "site": "ai-body",
-  "updated": "2026-05-21T14:06:55.305Z",
+  "updated": "2026-05-22T14:06:56.140Z",
   "videos": [
     {
       "id": "aibody-001",
@@ -24,6 +24,14 @@
       "hook": "Built different",
       "prompt": "A person doing a pull-up, back muscles engaging, controlled movement up and down, gym setting, dramatic side lighting highlighting muscle definition, slow motion athletic motion",
       "generated": "2026-05-21T14:06:55.305Z",
+      "posted": false
+    },
+    {
+      "id": "aibody-004",
+      "url": "https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/885006838557708306/VIDEO/20260522/592dfd811b619dc486b5bdac22ec6532-df5ca04c-22eb-4fb5-8f72-8c31ba293f2f.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAGP-xwKw05aPy1lXzgKLxuEb9Le9IsIcYgSVDBLAdQNIZkrGXTQpd_Jg1S1j0pmjDoAiK5oCxjhofHRXL-pV-dRDsuba19woz7ZCdH1gG50pjXpEiK7vyJ5BgcW9UEW80cuwr4vnClvWIJi47ruPRTdChA3w4WJKU0DKdnn11Zw9a9iTcXWXcTtCZCu_fsyDX5d-eXyXqWXbL28G7Sxx-s1w3umU4AJcFOhBWQh2rWFcBoSK9DDR3Zts0AO39BBzVqoebvyIiAYDuBFOLscV7IP9aOc_7oF8_Xh3UII9-DxjKiLgBtgGCgFMAE&x-kcdn-pid=112781&ksSecret=a2d5d298a145864344f26c63eb20a88a&ksTime=6a37effd",
+      "hook": "Rest is training too",
+      "prompt": "A person cooling down after a workout, walking in a park, deep breathing, sunset lighting, calm atmosphere, sweat on skin, relaxed posture, transition from exertion to recovery",
+      "generated": "2026-05-22T14:06:56.140Z",
       "posted": false
     }
   ]
