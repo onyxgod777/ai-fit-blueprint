@@ -1,6 +1,6 @@
 {
   "site": "ai-body",
-  "updated": "2026-05-23T14:08:47.207Z",
+  "updated": "2026-05-24T14:25:07.067Z",
   "videos": [
     {
       "id": "aibody-001",
@@ -32,6 +32,14 @@
       "hook": "Rest is training too",
       "prompt": "A person cooling down after a workout, walking in a park, deep breathing, sunset lighting, calm atmosphere, sweat on skin, relaxed posture, transition from exertion to recovery",
       "generated": "2026-05-22T14:06:56.140Z",
+      "posted": false
+    },
+    {
+      "id": "aibody-005",
+      "url": "https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/885006838557708306/VIDEO/20260524/a63fcf729591a47c0f899a53379fbd60-807eaa2c-9204-43cd-bc59-5907512ab7bb.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAGh8TOPAirPvkKPM94edc_1HbJs2HsksTdqxyBVSvp02MkX5HMuYIgVuaN03_QphOzmZLKpEUGOaxV4xUOt7vccLxKO7INjUjfFUbm0tnnSdxgYPqaBzJV-ThDfC7xrD6PBRkRmARhZ3CdrzSVgXGBKAyptHSbh-TGHbNCxNC-EKn-toGGNavlJIr7ZdwM67NDoIfhaEiGFrmhfRvlHdFFCndZy2Zx35gBOAH2_Qx6a3hoSnEyggwjlEmAabESg8cJCaRyFIiD_3mzszNmCVVLM4PRKBj0RDd50_kQS68xRLxJgLt8rkygFMAE&x-kcdn-pid=112781&ksSecret=6c6a8520bd275620ad45dc6ba3443af4&ksTime=6a3a9740",
+      "hook": "Recovery is where growth happens",
+      "prompt": "A person stretching on a yoga mat in a sunlit room, reaching forward in a hamstring stretch, morning sunlight streaming through large windows, peaceful atmosphere, clean space, slow motion stretch",
+      "generated": "2026-05-24T14:25:07.067Z",
       "posted": false
     }
   ]
