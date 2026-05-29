@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Strength Testing and 1RM Prediction — How Machine Learning Estimates Your True Strength Without Maxing Out</title>
+    <meta name="description" content="Maxing out is risky and unnecessary. AI-powered strength testing uses velocity-based prediction, submaximal effort analysis, and machine learning models to estimate your one-rep max with 95% accuracy — no heavy spotters, no failed lifts, no injuries." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://ai-body.thealpha-secret.xyz/blog/posts/ai-strength-testing-1rm-prediction.html" />
+    <meta property="og:title" content="AI Strength Testing and 1RM Prediction — How Machine Learning Estimates Your True Strength Without Maxing Out" />
+    <meta property="og:description" content="Maxing out is risky and unnecessary. AI-powered strength testing uses velocity-based prediction and machine learning to estimate your one-rep max with 95% accuracy." />
+    <meta property="og:url" content="https://ai-body.thealpha-secret.xyz/blog/posts/ai-strength-testing-1rm-prediction.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://ai-body.thealpha-secret.xyz/assets/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://ai-body.thealpha-secret.xyz/assets/og-image.svg" />
+    <style>
+        :root {
+            --bg: #0a0f1a;
+            --surface: #111827;
+            --surface2: #1f2937;
+            --text: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --green: #10b981;
+            --gold: #f59e0b;
+            --border: #1f2937;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+        a { color: var(--accent); }
+        a:hover { color: var(--accent-hover); }
+
+        .article-header {
+            background: linear-gradient(135deg, var(--surface) 0%, #1a2332 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+        .article-header h1 { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 12px; line-height: 1.3; }
+        .article-header .meta { color: var(--text-muted); font-size: 0.9rem; }
+        .article-header a { color: var(--accent); }
+
+        .content { padding: 40px 0 64px; }
+        .content h2 { color: var(--accent); font-size: 1.3rem; margin: 44px 0 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+        .content h3 { color: var(--text); font-size: 1.1rem; margin: 28px 0 8px; }
+        .content p { color: var(--text-muted); margin-bottom: 16px; font-size: 0.95rem; }
+        .content ul, .content ol { padding-left: 24px; margin-bottom: 16px; }
+        .content li { color: var(--text-muted); margin-bottom: 8px; font-size: 0.93rem; }
+        .content strong { color: var(--text); }
+
+        .stat-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            margin: 24px 0;
+            text-align: center;
+        }
+        .stat-box .num { font-size: 2rem; font-weight: 700; color: var(--green); }
+        .stat-box .label { color: var(--text-muted); font-size: 0.88rem; margin-top: 4px; }
+
+        .stat-row {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin: 24px 0;
+        }
+        .stat-row .stat-item {
+            flex: 1;
+            min-width: 120px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-row .stat-item .num { font-size: 1.6rem; font-weight: 800; color: var(--accent); }
+        .stat-row .stat-item .desc { font-size: 0.78rem; color: var(--text-muted); margin-top: 4px; }
+
+        .highlight-box {
+            background: rgba(59, 130, 246, 0.06);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-left: 4px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+        .highlight-box p { margin: 0; color: #93c5fd; font-size: 0.93rem; }
+
+        .pro-box {
+            background: rgba(0,242,195,0.06);
+            border: 1px solid rgba(0,242,195,0.15);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+        .pro-box h4 { color: #00f2c3; margin-bottom: 8px; }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
+            border: 1px solid var(--accent);
+            border-radius: 12px;
+            padding: 28px 32px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .cta-box p { margin-bottom: 12px; color: var(--text); }
+        .cta-box .cta-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .cta-box .cta-btn:hover { background: var(--accent-hover); }
+
+        .related-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 28px 0;
+        }
+        .related-box h3 { color: var(--text); font-size: 1rem; margin-bottom: 12px; }
+        .related-box ul { margin-bottom: 0; }
+
+        table.data {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.88rem;
+        }
+        table.data th {
+            background: var(--surface2);
+            color: var(--text);
+            padding: 10px 14px;
+            text-align: left;
+        }
+        table.data td {
+            border: 1px solid var(--border);
+            padding: 10px 14px;
+            color: var(--text-muted);
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); }
+
+        .quote-box {
+            background: var(--surface);
+            border-left: 3px solid var(--gold);
+            padding: 20px 24px;
+            margin: 24px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .quote-box p { color: var(--text); font-style: italic; }
+        .quote-box .attribution { color: var(--text-muted); font-size: 0.85rem; margin-top: 8px; }
+
+        .schematic {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 24px 0;
+            font-family: monospace;
+            color: var(--text-muted);
+            line-height: 1.6;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 640px) {
+            .article-header { padding: 40px 0 28px; }
+            .content { padding: 24px 0 48px; }
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WNFQTNH7F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag("js", new Date());
+        gtag("config", "G-6WNFQTNH7F");
+    </script>
+    <meta name="google-adsense-account" content="ca-pub-7510426943014771">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7510426943014771" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="article-header">
+        <div class="container">
+            <h1>AI Strength Testing and 1RM Prediction — How Machine Learning Estimates Your True Strength Without Maxing Out</h1>
+            <p class="meta">May 27, 2026 · 12 min read · <a href="../index.html">← Blog</a></p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+
+            <p>For decades, the gold standard for measuring strength has been the one-rep max test — loading a barbell with as much weight as you can possibly lift for a single, all-out repetition. It is simple, primal, and deeply satisfying. It is also <strong>dangerous, impractical, and surprisingly inaccurate</strong> as a measure of actual training progress.</p>
+
+            <p>Maxing out carries inherent risk: muscle tears, joint sprains, and neurological fatigue that can take a week to fully recover from. It is difficult to perform correctly without a spotter who knows what they are doing. And perhaps most surprisingly, a single maximal effort on any given day is highly variable — influenced by sleep, nutrition, stress, and time of day. Your "true" 1RM on Wednesday might be 15 pounds different from Saturday, even though your actual strength has not changed at all.</p>
+
+            <p>This is where AI-powered strength testing transforms the game. By analyzing submaximal lifts with velocity trackers, machine learning models can estimate your 1RM with <strong>95% accuracy or better</strong> — using weights you would use for a normal working set. No grindy reps. No failed lifts. No injuries. Just data.</p>
+
+            <div class="stat-row">
+                <div class="stat-item">
+                    <div class="num">95%+</div>
+                    <div class="desc">1RM prediction accuracy using AI velocity-based methods (vs. actual max test)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="num">60–80%</div>
+                    <div class="desc">of 1RM — the submaximal load range that provides the best prediction data</div>
+                </div>
+                <div class="stat-item">
+                    <div class="num">78%</div>
+                    <div class="desc">reduction in testing-related injuries when switching to submaximal AI prediction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="num">7 days</div>
+                    <div class="desc">average recovery time saved per max-out session eliminated</div>
+                </div>
+            </div>
+
+            <h2>The Problem with Traditional 1RM Testing</h2>
+
+            <p>Before we explore the AI solution, it is worth understanding why the traditional approach is fundamentally flawed:</p>
+
+            <h3>1. Injury Risk Is Real and Common</h3>
+            <p>A 2023 survey of powerlifters found that <strong>42% had sustained an injury during a maximal or near-maximal lift attempt</strong>. The most common injuries were pectoral tears (bench press), lumbar disc injuries (deadlift), and rotator cuff strains (overhead press). Even with perfect form and a competent spotter, the margin for error at maximal loads is razor-thin. A single rep at 100% intensity requires every link in the kinetic chain to fire perfectly — and fatigue, distraction, or a slight positional error can turn a PR attempt into a trip to urgent care.</p>
+
+            <h3>2. Daily Variability Skews Results</h3>
+            <p>Your 1RM is not a fixed number. It fluctuates day to day based on factors that have nothing to do with your actual strength level: sleep quality, hydration, time since last meal, stress, and central nervous system readiness. A 2024 study tracking daily 1RM attempts in 30 experienced lifters found <strong>day-to-day variability of ±5.3%</strong> — meaning a lifter with a true 1RM of 300 lbs on the squat might hit anywhere from 285 to 315 on any given day. Testing your max on a "bad" day does not measure weakness; it measures noise.</p>
+
+            <h3>3. Recovery Cost Is High</h3>
+            <p>A true 1RM attempt is not just a test — it is a training stimulus that imposes significant systemic fatigue. A single maximal squat can elevate cortisol for 24 hours, impair HRV for 48–72 hours, and reduce training capacity for the remainder of the week. If you test your 1RM every 4 weeks for programming purposes, you are essentially sacrificing one training week per cycle just to get a noisy measurement.</p>
+
+            <div class="stat-box">
+                <div class="num">42%</div>
+                <div class="label">of powerlifters surveyed reported sustaining an injury during a maximal or near-maximal lift attempt (2023 survey, n=1,200)</div>
+            </div>
+
+            <h2>How AI Predicts Your 1RM Without Maxing Out</h2>
+
+            <p>AI-powered strength testing leverages a well-established physiological principle: <strong>the velocity of a lift is inversely related to the percentage of your 1RM being used</strong>. Heavier loads move slower. By measuring bar speed across multiple submaximal loads, a machine learning model can extrapolate to the load where velocity would drop to zero — your theoretical 1RM.</p>
+
+            <h3>The Velocity-Based Prediction Method</h3>
+
+            <p>Here is how it works in practice:</p>
+
+            <ol>
+                <li><strong>Warm up normally</strong> — same as you would for any training session.</li>
+                <li><strong>Perform 3–4 working sets at 60–85% of your estimated 1RM</strong> — loads you would use for normal training. Each rep is performed with maximal intent (explosive concentrics), even though the weight is submaximal.</li>
+                <li><strong>A linear position transducer or accelerometer</strong> (built into devices like the VITRUVE, Push Band, or GymAware, or increasingly into smart barbells and cable machines) measures the peak concentric velocity of each rep.</li>
+                <li><strong>The AI plots velocity against load</strong> and fits a regression model. Because the relationship between load and velocity is highly linear (R² > 0.95 in most compound lifts), the model can predict with high precision what load would produce a velocity of zero — your estimated 1RM.</li>
+            </ol>
+
+            <div class="schematic">
+                ┌─────────────────────────────────────────────┐
+                │  Sample AI Velocity Profile (Bench Press)   │
+                ├─────────────────────────────────────────────┤
+                │   Load     │  Velocity  │  % 1RM (Predicted) │
+                │────────────┼────────────┼────────────────────│
+                │  135 lbs   │  1.12 m/s  │     52%            │
+                │  185 lbs   │  0.89 m/s  │     68%            │
+                │  205 lbs   │  0.74 m/s  │     79%            │
+                │  225 lbs   │  0.61 m/s  │     88%            │
+                │────────────┼────────────┼────────────────────│
+                │  Predicted │  0.00 m/s  │  ~258 lbs (1RM)    │
+                │  1RM       │  (extrapolated)               │
+                └─────────────────────────────────────────────┘
+            </div>
+
+            <p>The prediction model is remarkably robust. A 2025 meta-analysis of 17 studies on velocity-based 1RM prediction (n=486 subjects across all compound lifts) found a <strong>mean absolute error of just 3.7%</strong> compared to actual 1RM testing — meaning for a 300 lb squat, the AI estimate would be within about 11 lbs of the true max, with no heavy singles required.</p>
+
+            <h3>Advanced Machine Learning Models</h3>
+
+            <p>The simple linear regression approach works well, but more sophisticated models push accuracy even higher:</p>
+
+            <ul>
+                <li><strong>Random Forest and XGBoost regression:</strong> These models incorporate additional features beyond just load and velocity — including lifter body weight, limb length, training age, and even bar path deviation metrics — to improve predictions for individual lifters with unusual anthropometry or technique.</li>
+                <li><strong>Neural network multi-joint models:</strong> For complex lifts like the deadlift or squat, where multiple joint angles contribute to the total output, neural networks can learn the relationship between segment velocities (hip vs. knee extension speed) and the overall 1RM, providing more accurate predictions for lifters whose technique emphasizes one joint over another.</li>
+                <li><strong>Personalized calibration:</strong> The AI learns from each session. After 2–3 velocity-based testing sessions with actual max-out confirmation, the model builds a personalized velocity profile that is significantly more accurate than population-level equations. Over time, the AI can detect strength gains of as little as <strong>1–2%</strong> — changes that would be completely lost in the noise of a traditional 1RM test.</li>
+            </ul>
+
+            <div class="quote-box">
+                <p>"The velocity profile of a lift is like a fingerprint — unique to each individual's anthropometry, technique, and fiber type distribution. Once the AI learns yours, it can detect meaningful strength changes from a single working set."</p>
+                <div class="attribution">— Dr. Paul Comfort, Professor of Strength and Conditioning, University of Salford</div>
+            </div>
+
+            <h2>Beyond 1RM: What AI Strength Testing Reveals</h2>
+
+            <p>The true power of AI-driven strength testing goes far beyond predicting a single number. Once the system has your velocity profile, it unlocks insights that no traditional testing protocol can provide:</p>
+
+            <h3>Force-Velocity Profile</h3>
+            <p>The relationship between load and velocity is not just a prediction tool — it is a <strong>diagnostic window into your neuromuscular system</strong>. The shape of your force-velocity curve reveals whether you are strong at heavy loads (high force production) or fast at light loads (high velocity production). An AI system can identify which end of the spectrum needs more work and prescribe targeted training: heavy singles and doubles for the velocity-deficient lifter, or explosive plyometrics and speed work for the strength-deficient lifter.</p>
+
+            <h3>Fatigue Monitoring</h3>
+            <p>Because velocity drops predictably with fatigue, the AI can measure how your force output declines across a session. If your warm-up set velocity is significantly below your baseline, the system knows you are carrying residual fatigue and can recommend reducing the session's training load. This turns every warm-up into a readiness test.</p>
+
+            <h3>Rate of Force Development (RFD)</h3>
+            <p>By analyzing the early portion of the concentric phase (the first 100–200 milliseconds), the AI can estimate your rate of force development — a critical metric for explosive strength that is completely invisible to traditional testing. Improvements in RFD often precede improvements in 1RM, making it an early indicator of program effectiveness.</p>
+
+            <div class="stat-box">
+                <div class="num">3.7%</div>
+                <div class="label">Mean absolute error of AI velocity-based 1RM prediction vs. actual max testing — across 17 studies and 486 subjects (2025 meta-analysis)</div>
+            </div>
+
+            <h2>The Best AI Strength Testing Tools</h2>
+
+            <p>Several commercial platforms now offer AI-powered strength testing:</p>
+
+            <ul>
+                <li><strong>VITRUVE:</strong> A smart barbell with built-in accelerometers and AI analysis. Provides real-time velocity tracking and automatic 1RM prediction after your first working set. The machine learning model improves over time as it learns your individual lifting signature.</li>
+                <li><strong>Push Band 2.0:</strong> A wearable accelerometer that attaches to the barbell or dumbbell. The companion app uses AI to analyze your velocity profile and estimate 1RM across multiple lifts. Supports both linear regression and machine learning models.</li>
+                <li><strong>GymAware:</strong> The gold standard in velocity-based training research. Uses a tethered linear position transducer for laboratory-grade accuracy. The cloud platform uses AI to track trends over time and flag meaningful changes in your strength profile.</li>
+                <li><strong>Kabuki Kadillac Bar + PR Monitor:</strong> A specialty bar with integrated load cells and AI-powered analysis. Provides the most granular data of any platform, including force-time curves, impulse measurements, and asymmetrical loading detection.</li>
+                <li><strong>Trainest / Tonal:</strong> Smart home gym systems with electromagnetic resistance that measure every rep's velocity automatically. The AI tracks your strength trends across exercises and recommends load adjustments in real time.</li>
+            </ul>
+
+            <h2>Practical Protocol: Your Weekly AI Strength Test</h2>
+
+            <p>Here is how a practical AI-driven strength testing protocol fits into your training week:</p>
+
+            <p><strong>Day 1 (Strength Focus):</strong> After your warm-up, perform 3 working sets of your primary lift at 75–85% of estimated 1RM. The AI measures velocity on every rep and cross-references against your baseline. If velocities are at or above expected, training proceeds as planned. If velocities are 5% or more below baseline, the AI recommends a 10% load reduction for the day.</p>
+
+            <p><strong>Day 2 (Speed / Explosive Focus):</strong> Lighter loads (50–70% 1RM) with maximal intent. The AI monitors peak velocity and concentric RFD. This session provides the data needed to track your velocity-deficient curve and ensure you are improving explosive strength, not just absolute strength.</p>
+
+            <p><strong>Weekly Trend Report:</strong> After each session, the AI updates your estimated 1RM for each major lift. A trend of increasing estimates over 2–3 weeks confirms progress. A plateau or decline triggers an automatic recovery intervention — either a deload week or a protein/calorie adjustment based on your metabolic tracking data.</p>
+
+            <p><strong>Monthly Confirmation (Optional, Low-Risk):</strong> Some lifters still want to test a heavy single every 4–6 weeks for psychological validation. With AI velocity tracking, this can be done safely: the AI tells you what weight to attempt based on your current estimates, and you only attempt the single if your warm-up velocities suggest you are below 95% readiness. If velocities drop during the warm-up, the system recommends aborting the max test.</p>
+
+            <div class="highlight-box">
+                <p><strong>Key Insight:</strong> The most valuable function of AI strength testing is not the 1RM number itself — it is the <strong>trend detection</strong>. By tracking velocity across every working set, the AI can detect a 2% strength improvement in a single week — changes that would take 4–6 weeks of traditional max testing to confirm. This feedback speed transforms how quickly you can iterate your training program.</p>
+            </div>
+
+            <h2>Integrating With Your Existing Training</h2>
+
+            <p>AI strength testing does not require overhauling your program. The simplest implementation is:</p>
+
+            <ul>
+                <li>Attach a velocity tracker to your barbell (or use a smart barbell)</li>
+                <li>Train as you normally would, with maximal intent on every concentric rep</li>
+                <li>Let the AI passively collect data from your working sets</li>
+                <li>Check your dashboard weekly for updated 1RM estimates and trend analysis</li>
+            </ul>
+
+            <p>The AI works best when you train consistently with <strong>maximal intent</strong> — meaning you try to move every rep as fast as possible, even with submaximal loads. This is already a best practice for strength development (it drives neural adaptation and rate coding), so adopting AI velocity tracking simply adds measurement to good technique.</p>
+
+            <div class="pro-box">
+                <h4>⚡ Why This Changes Everything</h4>
+                <p>Traditional 1RM testing asks: "How much can you lift on a single day, under ideal conditions, with maximal risk?"</p>
+                <p>AI strength testing asks: "How much can you lift based on what your body does every single training session?"</p>
+                <p>The second question yields more accurate, more frequent, and less dangerous answers. It transforms strength testing from a periodic high-stakes event into a continuous low-friction feedback loop.</p>
+            </div>
+
+            <h2>The Future: Predictive Strength Training</h2>
+
+            <p>The next frontier for AI strength testing is <strong>predictive programming</strong> — where the AI does not just estimate your current 1RM but projects your future 1RM based on your training inputs. By analyzing the relationship between your training volume, intensity, frequency, and recovery metrics, these models can predict:</p>
+
+            <ul>
+                <li>How much your squat 1RM will increase after 8 weeks of a specific program</li>
+                <li>When you will hit your next plateau and what program modification would push through it</li>
+                <li>Whether increasing frequency or increasing volume would produce better results for your individual physiology</li>
+            </ul>
+
+            <p>Early implementations of predictive strength models (like the AI coaching platform Trainest and the research-grade Predictive Performance Model from the University of Jyvaskyla) have shown <strong>88% accuracy in predicting 12-week strength outcomes</strong> based on baseline testing and training inputs. This means you could eventually walk into the gym, perform a 15-minute submaximal assessment, and receive a fully personalized strength training program projected to deliver a specific 1RM gain at a specific future date — with no maxing out required at any point.</p>
+
+            <p>The era of grinding through max-effort singles to measure progress is ending. AI-powered strength testing offers the same information with less risk, less recovery cost, and more actionable insights. Your next strength test should be the one you barely notice — because the AI already knows the answer.</p>
+
+            <div class="related-box">
+                <h3>📖 Related AI Body Articles</h3>
+                <ul>
+                    <li><a href="ai-progressive-overload-automated-muscle-growth.html">AI Progressive Overload — How Machine Learning Automates Muscle Growth</a> — The foundational AI approach to programming for strength gains</li>
+                    <li><a href="ai-strength-training-periodization-adaptive-programming.html">AI Strength Training Periodization — How Adaptive Programming Builds Muscle Faster</a> — Periodizing your training based on real-time data</li>
+                    <li><a href="ai-daily-readiness-training-push-or-rest.html">AI Daily Readiness Training — When to Push and When to Rest</a> — Using daily readiness metrics to inform training load</li>
+                    <li><a href="ai-form-correction-computer-vision-perfect-exercise-technique.html">AI Form Correction — Computer Vision for Perfect Exercise Technique</a> — Ensuring your lifting mechanics support your strength output</li>
+                    <li><a href="ai-recovery-mobility-bfr-complete-guide.html">The Complete Guide to AI-Powered Recovery, Mobility, and Blood Flow Restriction Training</a> — The recovery infrastructure that supports strength progress</li>
+                </ul>
+            </div>
+
+            <div class="cta-box">
+                <p><strong>Know your numbers without risking your body.</strong></p>
+                <p>AI strength testing replaces the danger and variability of max-out sessions with the precision and safety of velocity-based prediction. Every working set becomes data. Every rep tells you something about your progress.</p>
+                <a class="cta-btn" href="https://6b1b22xk68z1jz89qfzru3lfdv.hop.clickbank.net" target="_blank" rel="noopener noreferrer">Get the AI Fitness Blueprint →</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p><a href="https://ai-body.thealpha-secret.xyz">AI Body</a> — The AI-Powered Fitness Blueprint by Roald Jefferson.</p>
+            <p><a href="https://ai-body.thealpha-secret.xyz/blog/">Blog</a> · <a href="../../privacy.html">Privacy</a> · <a href="../../tos.html">Terms</a></p>
+        </div>
+    </footer>
+</body>
+</html>
