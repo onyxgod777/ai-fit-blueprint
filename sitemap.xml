@@ -584,4 +584,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-05-ai-red-light-therapy-photobiomodulation-recovery.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-09-05</lastmod>
+  </url>
 </urlset>
