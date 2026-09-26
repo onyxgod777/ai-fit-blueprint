@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Cycling Training — Power-Based FTP Gains and Body Recomposition</title>
+    <meta name="description" content="AI cycling training uses power-meter data and auto-detected FTP to build adaptive intervals that raise aerobic capacity and burn fat without junk miles." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-26-ai-cycling-power-training-ftp-body-recomposition.html" />
+    <meta property="og:title" content="AI Cycling Training — Power-Based FTP Gains and Body Recomposition" />
+    <meta property="og:description" content="A power meter already gives you the honest number. AI turns watts into a plan: auto-detected FTP, adaptive interval targets, fatigue-aware load management, and calorie math that actually adds up for fat loss." />
+    <meta property="og:url" content="https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-26-ai-cycling-power-training-ftp-body-recomposition.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://ai-body.thealpha-secret.xyz/assets/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://ai-body.thealpha-secret.xyz/assets/og-image.svg" />
+    <meta name="twitter:title" content="AI Cycling Training — Power-Based FTP Gains and Body Recomposition" />
+    <meta name="twitter:description" content="Watts don't lie. AI turns power-meter data into auto-detected FTP, adaptive interval targets, and fatigue-aware load management for real recomposition." />
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1a1a2e;
+            background: #0a0f1a;
+            line-height: 1.8;
+        }
+        .container { max-width: 750px; margin: 0 auto; padding: 0 24px; }
+        a { color: #64b5f6; }
+
+        .post-header {
+            background: linear-gradient(135deg, #0a0f1a, #16213e);
+            color: #fff;
+            padding: 48px 0 40px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .post-header h1 { font-size: clamp(1.3rem, 3vw, 1.8rem); margin-bottom: 12px; line-height: 1.3; }
+        .post-header .meta { color: rgba(255,255,255,0.4); font-size: 0.85rem; }
+        .post-header a { color: #64b5f6; font-size: 0.85rem; }
+
+        .post-content { padding: 48px 0 64px; color: rgba(255,255,255,0.85); }
+        .post-content h2 { color: #fff; font-size: 1.2rem; margin: 36px 0 12px; }
+        .post-content h3 { color: #fff; font-size: 1.05rem; margin: 24px 0 8px; }
+        .post-content p { margin-bottom: 16px; font-size: 0.95rem; }
+        .post-content strong { color: #fff; }
+        .post-content ul { margin: 8px 0 16px 20px; }
+        .post-content ul li { margin-bottom: 8px; font-size: 0.92rem; }
+        .post-content ol { margin: 8px 0 16px 20px; }
+        .post-content ol li { margin-bottom: 8px; font-size: 0.92rem; }
+        .post-content .highlight-box {
+            background: rgba(255,255,255,0.03);
+            border-left: 3px solid #64b5f6;
+            border-radius: 0 8px 8px 0;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+        .post-content .highlight-box p { margin: 0; font-size: 0.92rem; }
+        .post-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 0.88rem;
+        }
+        .post-content table th { color: #fff; text-align: left; padding: 10px 12px; background: rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .post-content table td { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .post-content .cta-box {
+            background: linear-gradient(135deg, rgba(79,172,254,0.1), rgba(0,242,195,0.05));
+            border: 1px solid rgba(79,172,254,0.2);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+            text-align: center;
+        }
+        .post-content .cta-box p { margin-bottom: 16px; font-size: 0.95rem; }
+        .post-content .cta-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #00f2c3, #0099ff);
+            color: #0a0f1a;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 12px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: transform .2s, box-shadow .2s;
+        }
+        .post-content .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,242,195,0.3); }
+
+        nav {
+            text-align: center;
+            padding: 16px 0;
+            font-size: 0.85rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.3);
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        footer a { color: rgba(255,255,255,0.4); text-decoration: underline; }
+    </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WNFQTNH7F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-6WNFQTNH7F");
+  </script>
+  <meta name="google-adsense-account" content="ca-pub-7510426943014771">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7510426943014771" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="post-header">
+        <h1>AI Cycling Training — Power-Based FTP Gains and Body Recomposition</h1>
+        <div class="meta">September 26, 2026 · 11 min read</div>
+        <p><a href="https://ai-body.thealpha-secret.xyz/blog/">← Back to Blog</a></p>
+    </div>
+
+    <div class="post-content">
+        <div class="container">
+
+            <p>Cycling has one advantage over almost every other form of cardio: <strong>it already measures the thing that matters.</strong> A power meter reports the actual work your legs are producing, in watts, second by second. No estimated calorie burn, no pace that changes meaning with a headwind, no heart rate that drifts with caffeine and heat. Watts are watts — on a climb, on a trainer, in your garage at 6am.</p>
+
+            <p>That makes cycling the most data-rich environment in fitness. It is also why so many cyclists stay stuck: they own the data and never act on it. They ride the same loop at the same pace for years, calling it "base," and wonder why their FTP has not moved and their body composition has not changed.</p>
+
+            <p><strong>AI cycling training closes that gap.</strong> Instead of re-testing FTP twice a season and guessing at interval targets, an adaptive model reads your power files continuously, updates your thresholds as they actually change, prescribes the next interval session from your real fatigue state, and keeps your calorie math tied to measured kilojoules instead of a wristwatch estimate.</p>
+
+            <h2>Why Watts Beat Every Other Cardio Metric</h2>
+
+            <p>Heart rate lags effort by 30–60 seconds, rises with heat, caffeine, and stress, and drifts upward over a long ride even at constant output. Pace on a bike is meaningless without grade and wind. Power is immediate, objective, and immune to all of it.</p>
+
+            <p>Two derived numbers do all the heavy lifting:</p>
+
+            <ul>
+                <li><strong>FTP (functional threshold power)</strong> — roughly the highest power you can hold for about an hour. Everything else in cycling is defined as a percentage of it, so an accurate FTP is the foundation of every training zone you ride.</li>
+                <li><strong>W/kg</strong> — your FTP divided by body weight. This is where cycling and body recomposition collide: losing fat while holding power raises W/kg from both directions at once, which is exactly what a <a href="/blog/posts/ai-body-recomposition-fat-loss-muscle-gain.html">simultaneous recomposition strategy</a> is built to do.</li>
+            </ul>
+
+            <p>The problem is that FTP is a moving target. It falls when you are detrained, sick, or under-fueled, and rises as fitness improves. If your zone anchors are stale, every session you ride is prescribed at the wrong intensity — and no amount of willpower fixes a mis-calibrated plan.</p>
+
+            <div class="highlight-box">
+                <p><strong>Key Insight:</strong> Cycling's biggest failure mode is not lack of effort — it is riding at the wrong intensity because your thresholds are out of date. An AI system that keeps your FTP and power-duration curve current makes every session self-correcting.</p>
+            </div>
+
+            <h2>How AI Builds a Cycling Plan Around Your Data</h2>
+
+            <h3>1. FTP Without the Dreaded Test</h3>
+            <p>The classic 20-minute all-out test is brutal, mentally taxing, and — because it is one maximal effort on one day — noisy. Machine-learning models instead fit a <strong>power-duration curve</strong> (also called critical power modelling) across your best efforts at multiple durations: a 2-minute sprint, a 5-minute VO2 effort, a 12-minute climb, a 40-minute tempo block. From that curve the model estimates your threshold and your anaerobic reserve, and because it is fit across dozens of rides, it updates smoothly as fitness changes instead of lurching on one bad test day.</p>
+
+            <h3>2. Interval Targets That Adapt to Fatigue</h3>
+            <p>Every interval has a purpose that maps to a specific intensity — and AI prescription means the target watts are set from current data, not from a copied plan. Threshold work goes at 95–105% of FTP. VO2 intervals sit at 106–120%. Endurance sits well below. When your modelled threshold moves, the whole plan moves with it, automatically.</p>
+
+            <h3>3. Fatigue-Aware Load Management</h3>
+            <p>Cycling has a well-developed fatigue language worth borrowing even if you never race: <strong>TSS</strong> (training stress score, a single number for how hard a ride was), <strong>CTL</strong> (your rolling chronic load — fitness), and <strong>ATL</strong> (acute load — fatigue). Fitness rises when chronic load rises gradually; performance falls when fatigue spikes far above fitness. An AI system tracks all three and warns when your weekly ramp rate is climbing faster than you can absorb — the exact mistake that produces the deep, motivation-killing fatigue that ends most training blocks early.</p>
+
+            <p>The same logic applies to any endurance modality. If you also run, the adaptive approach in our guide to <a href="/blog/posts/ai-running-coach-endurance-training-optimization.html">AI running coaching</a> applies the identical principle to pace-based training. And for the physiology underneath the intensity bands, the zone definitions in <a href="/blog/posts/2026-09-01-ai-lactate-threshold-vo2-max-optimization.html">lactate threshold and VO2 max optimization</a> explain what each cycling zone is actually training.</p>
+
+            <h2>The Power Zones — A Practical Map</h2>
+
+            <table>
+                <tr>
+                    <th>Zone</th>
+                    <th>% of FTP</th>
+                    <th>Feel</th>
+                    <th>Primary Purpose</th>
+                </tr>
+                <tr>
+                    <td>Z1 Recovery</td>
+                    <td>&lt;55%</td>
+                    <td>Conversational, easy spin</td>
+                    <td>Blood flow, active recovery between hard days</td>
+                </tr>
+                <tr>
+                    <td>Z2 Endurance</td>
+                    <td>56–75%</td>
+                    <td>Steady, can speak in sentences</td>
+                    <td>Aerobic base, fat oxidation, mitochondrial density</td>
+                </tr>
+                <tr>
+                    <td>Z3 Tempo</td>
+                    <td>76–90%</td>
+                    <td>Comfortably hard, short sentences</td>
+                    <td>"Grey zone" — useful in measured doses, overused by most</td>
+                </tr>
+                <tr>
+                    <td>Z4 Threshold</td>
+                    <td>91–105%</td>
+                    <td>Hard, steady, uncomfortable</td>
+                    <td>Raising FTP — the strongest predictor of endurance performance</td>
+                </tr>
+                <tr>
+                    <td>Z5 VO2 Max</td>
+                    <td>106–120%</td>
+                    <td>Very hard, breathing laboured</td>
+                    <td>Top-end aerobic ceiling, 3–8 minute repeats</td>
+                </tr>
+                <tr>
+                    <td>Z6+ Anaerobic</td>
+                    <td>&gt;120%</td>
+                    <td>Sprint-like, unsustainable</td>
+                    <td>Short surges, attacks, neuromuscular power</td>
+                </tr>
+            </table>
+
+            <p>Most stuck cyclists spend 80% of their week in Z3. It is hard enough to feel productive and easy enough to do daily — which is exactly why it produces neither the aerobic base of Z2 nor the threshold stimulus of Z4. Fixing intensity distribution, not adding volume, is usually what unlocks the next FTP jump. The same all-or-nothing misunderstanding of easy versus hard is covered in depth in our article on <a href="/blog/posts/2026-08-16-ai-zone-2-training-aerobic-base-fat-burn.html">Zone 2 aerobic base training</a>.</p>
+
+            <h2>Cycling for Fat Loss: The Kilojoule Math</h2>
+
+            <p>Here is the part most cyclists get wrong — and the part AI handles well. Cycling computers report work in kilojoules (kJ), and because human cycling efficiency is roughly 20–25%, the calories you burn are approximately equal to the kJ number. That is a genuinely useful 1:1 shortcut.</p>
+
+            <p>Do the arithmetic: 90 minutes at an average of 180 watts is 180 × 5400 seconds = <strong>972 kJ</strong>, which is about <strong>940–970 kcal</strong> of work. That is a large, measurable deficit contribution — and unlike a smartwatch estimate, it is derived from a strain gauge, not an accelerometer guessing at your arm swing.</p>
+
+            <p>But two corrections keep the math honest:</p>
+
+            <ol>
+                <li><strong>Calorie compensation.</strong> Hard rides raise appetite and can lower non-exercise activity later in the day. A 900 kcal ride rarely nets a 900 kcal deficit. AI systems that track intake, weight trend, and measured output together can quantify your personal compensation factor instead of assuming it away.</li>
+                <li><strong>Fuel the work, or lose the muscle.</strong> Under-eating around hard endurance work blunts recovery, suppresses training quality, and pushes the body toward using lean tissue. Protein intake and timing matter more, not less, on high-volume weeks — see <a href="/blog/posts/2026-07-03-ai-protein-amino-acid-optimization-muscle-growth.html">protein and amino acid optimization</a> for the dosing targets worth defending.</li>
+            </ol>
+
+            <div class="highlight-box">
+                <p><strong>Key Insight:</strong> Measured kilojoules give you a defensible calorie-burn number. The deficit still comes from your total day — training output tells you how much you earned, not how much you are allowed to eat.</p>
+            </div>
+
+            <h2>Don't Trade Muscle for Miles</h2>
+
+            <p>The single biggest mistake in cycling-focused recomposition is abandoning resistance training. Endurance work alone does not build the muscle that raises resting metabolic rate and gives the lean look most people are actually chasing. Two well-programmed lifting sessions a week — heavy compounds, progressive overload — preserve and build lean mass while cycling drives the energy expenditure and aerobic development.</p>
+
+            <p>Concurrent training does create an interference effect, but it is a scheduling and nutrition problem, not a reason to skip lifting. Separate hard days where possible, keep protein high, and let a system that sees both your lifting and riding data manage total fatigue. That is the role of <a href="/blog/posts/ai-strength-training-adaptive-programming.html">adaptive strength programming</a> alongside the bike work.</p>
+
+            <div class="cta-box">
+                <p><strong>Your power meter collects the truth. Nothing is reading it for you.</strong></p>
+                <p>The AI Fit Blueprint turns training data into decisions — adaptive interval targets, current thresholds, fatigue-aware scheduling, and calorie math tied to measured work instead of estimate. It is the difference between owning a data source and running a system.</p>
+                <a href="https://52f3f7-e-8-4mzcstmz88f5qah.hop.clickbank.net?tid=AIBODY_BLUEPRINT" class="cta-btn" target="_blank" rel="noopener">Get the Blueprint →</a>
+            </div>
+
+            <h2>A Practical Cycling Week for Recomposition</h2>
+
+            <ol>
+                <li><strong>Two interval days.</strong> One threshold session (3 × 12 minutes at 95–100% FTP) and one VO2 session (5 × 4 minutes at 110–115% FTP), each with 10–15 minutes of easy spinning either side. These drive fitness and burn real calories.</li>
+                <li><strong>Two endurance rides.</strong> 60–120 minutes strictly in Z2. Boring on purpose. This is where aerobic base and fat oxidation are built, and where most riders accidentally ride too hard.</li>
+                <li><strong>Two lifting sessions.</strong> Squat, hinge, press, pull — heavy enough to matter, short enough to recover from. Keep them at least six hours from hard rides where you can.</li>
+                <li><strong>One genuine rest or recovery day.</strong> Z1 spinning at most. Fatigue that accumulates faster than you adapt is the most common cause of stalled progress — a lesson that applies whether you are on a bike or managing a general <a href="/blog/posts/2026-08-18-ai-rest-day-optimization-recovery-body-composition.html">rest-day recovery protocol</a>.</li>
+                <li><strong>Track weekly, not daily.</strong> FTP trend, body composition trend, and weight trend across 4 weeks. Daily noise will lie to you; four-week direction will not.</li>
+            </ol>
+
+            <h2>The Bottom Line</h2>
+
+            <p>Cycling is the most honest cardio there is — it hands you a strain-gauge measurement of the work you did and dares you to ignore it. Most people do. They ride the same loop, at the same effort, with thresholds set years ago, and then wonder why the watts and the waistline both refuse to move.</p>
+
+            <p>AI cycling training changes the input side of that equation. Your thresholds stay current instead of decaying quietly. Your intervals are prescribed at the right intensity for the right adaptation. Your load is managed so fitness rises without burying you. And your calorie math is anchored to measured kilojoules rather than a wrist estimate that can be wrong by hundreds of calories.</p>
+
+            <p>Keep the lifting. Keep the protein high. Ride most of your hours easy and a small slice genuinely hard. Then let the data — not the habit loop — decide what tomorrow's session should be.</p>
+
+            <nav><a href="https://ai-body.thealpha-secret.xyz/blog/">← More Articles</a></nav>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="https://ai-body.thealpha-secret.xyz">Home</a> ·
+                <a href="https://ai-body.thealpha-secret.xyz/privacy.html">Privacy Policy</a> ·
+                <a href="https://ai-body.thealpha-secret.xyz/tos.html">Terms of Service</a>
+            </p>
+        </div>
+
+                <!-- ── Affiliate CTA ── -->
+    <div class="cta-box" style="background:linear-gradient(135deg, rgba(79,172,254,0.1), rgba(0,102,204,0.06));border:1px solid rgba(79,172,254,0.25);border-radius:12px;padding:28px;margin:32px 0;text-align:center;">
+        <p style="margin:0 0 8px;color:#64b5f6;font-weight:600;font-size:1.1rem;">🚴 Watts don't lie. Your plan might.</p>
+        <p style="margin:0 0 16px;color:rgba(255,255,255,0.7);font-size:0.9rem;">The AI Fit Blueprint turns power-meter data into adaptive intervals, current thresholds, and recovery-aware scheduling — so every ride moves you toward a leaner, stronger engine instead of just logging miles.</p>
+        <a href="https://52f3f7-e-8-4mzcstmz88f5qah.hop.clickbank.net?tid=AIBODY_BLUEPRINT" target="_blank" style="display:inline-block;padding:12px 28px;background:linear-gradient(135deg,#4facfe,#0066cc);color:#fff;border-radius:8px;font-weight:600;text-decoration:none;">👉 Get the AI Fit Blueprint</a>
+    </div>
+
+            <!-- ── Support ── -->
+            <div style="margin-top:20px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.08);font-size:0.8rem;text-align:center;">
+                <p style="margin:0 0 8px;font-size:0.85rem;"><a href="https://gutwise.thealpha-secret.xyz" style="color:#64b5f6;"><i class="fas fa-leaf"></i> GutWise — Gut Health Science</a> · <a href="https://pi.thealpha-secret.xyz" style="color:#a07830;"><i class="fas fa-circle-notch"></i> True Pi</a></p><p style="margin:0 0 8px;opacity:0.5;">☕ Support this work</p>
+                <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;align-items:center;">
+                    <a href="https://buymeacoffee.com/onyxg777" target="_blank" style="display:inline-flex;align-items:center;gap:4px;padding:5px 12px;background:#FFDD00;color:#000;border-radius:5px;text-decoration:none;font-weight:600;">☕ Buy Me a Coffee</a>
+                    <a href="https://ko-fi.com/ninthprime" target="_blank" style="display:inline-flex;align-items:center;gap:4px;padding:5px 12px;background:#FF5E5B;color:#fff;border-radius:5px;text-decoration:none;font-weight:600;">🎁 Ko-fi</a>
+                    <span style="opacity:0.3;">|</span>
+                    <span style="opacity:0.6;">◆ Crypto:</span>
+                    <code style="font-family:monospace;background:rgba(255,255,255,0.06);padding:3px 8px;border-radius:4px;border:1px solid rgba(255,255,255,0.1);cursor:pointer;" onclick="navigator.clipboard?.writeText('0x48F3AE27D2d49Aab2E57eAF4FEA22Ed3E835Bf0a');this.textContent='✓ Copied!';setTimeout(()=>this.textContent='0x48F3AE27...35Bf0a',2000)" title="Click to copy">0x48F3AE27...35Bf0a</code>
+                    <span style="opacity:0.4;font-size:0.75rem;">MATIC / USDC (Polygon)</span>
+                </div>
+            </div>
+
+    </footer>
+</body>
+</html>
