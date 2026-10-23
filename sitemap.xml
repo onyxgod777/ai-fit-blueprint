@@ -3,458 +3,169 @@
   <url>
     <loc>https://ai-body.thealpha-secret.xyz/</loc>
     <changefreq>daily</changefreq>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ai-body.thealpha-secret.xyz/blog/</loc>
     <changefreq>daily</changefreq>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-20-ai-creatine-fat-loss-cut-water-weight-myth.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/privacy.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-10-20</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-19-ai-protein-breakfast-fat-loss-morning-fuel.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-18-ai-meal-prep-high-protein-fat-loss.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-17-ai-metabolism-myths-weight-loss-ai-tracking.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-16-ai-walking-fat-loss-zone-2-body-recomposition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-14-ai-strength-training-beginners-first-90-days.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-14</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-13-ai-vitamin-d-sunlight-optimization-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-13</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-12-ai-shoulder-health-rotator-cuff-injury-prevention.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-11-ai-kettlebell-training-ballistic-strength-conditioning.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-10-ai-exercise-brain-health-cognitive-performance.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-09-ai-altitude-training-hypoxic-conditioning-endurance.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-08-ai-velocity-based-training-bar-speed-autoregulation.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-07-ai-detraining-reversal-return-to-training.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-06-ai-guided-foam-rolling-self-myofascial-release.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-06</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-05-ai-blood-pressure-exercise-hypertension-optimization.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-04-ai-visceral-fat-reduction-smart-training-nutrition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-03-ai-exercise-snacks-micro-workouts-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-02-ai-reaction-time-training-agility-reflexes.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-01-ai-muscle-soreness-doms-management-training-recovery.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-01</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-30-ai-core-training-trunk-stability-anti-rotation.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-29-ai-knee-health-joint-friendly-strength-training.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-29</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-28-ai-lagging-muscle-specialization-training.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-27-ai-race-day-fueling-carb-loading-endurance.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-27</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-26-ai-cycling-power-training-ftp-body-recomposition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-25-ai-rucking-load-carriage-training-fat-loss.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-25</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-24-ai-perimenopause-menopause-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/tos.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-09-24</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-23-ai-alcohol-body-recomposition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-20-ai-gait-analysis-walking-mechanics-injury-risk.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-20</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-19-ai-swimming-stroke-analysis-full-body-fitness.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-18-ai-intensity-techniques-drop-sets-rest-pause-myo-reps.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-17-ai-shift-work-training-nutrition-night-shift.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-16-ai-carb-cycling-personalized-body-recomposition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-15-ai-post-activation-potentiation-contrast-training.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-15</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-14-ai-balance-stability-training-proprioception.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-14</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-13-ai-sarcopenia-prevention-age-related-muscle-loss.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-13</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-12-ai-tendon-connective-tissue-training-collagen.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-11-ai-glp1-muscle-preservation-weight-loss-drugs.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-10-ai-bone-density-training-osteoporosis-prevention.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-09-ai-sprint-interval-training-all-out-intervals.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-08-ai-menstrual-cycle-phase-training-nutrition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-07-ai-plant-based-protein-vegan-muscle-growth.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-06-ai-caffeine-optimization-timing-genetics.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-06</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-05-ai-red-light-therapy-photobiomodulation-recovery.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-04-ai-creatine-optimization-muscle-performance.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-03-ai-omega-3-optimization-healthy-fats.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-02-ai-grip-strength-forearm-training.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-01-ai-lactate-threshold-vo2-max-optimization.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-09-01</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-31-ai-plyometric-power-training-explosive-athleticism.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-08-31</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-30-ai-mobility-training-range-of-motion.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-29-ai-posture-training-desk-workers-spinal-health.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-08-29</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-10-21</lastmod>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-28-ai-deload-week-optimization-recovery-training.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-27-ai-body-recomposition-intelligent-calorie-cycling.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-27-ai-travel-fitness-maintain-progress-on-the-road.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-28-ai-rewriting-body-transformation.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-26-ai-lean-bulking-muscle-gain-without-fat-gain.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-30-ai-fitness-app-fatigue-unified-body-transformation.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-25-ai-rest-interval-optimization-between-sets.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-01-ai-circadian-chrononutrition-biohacking-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-24-ai-reverse-dieting-calories-metabolic-rebound.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-02-ai-metabolic-adaptation-weight-loss-plateau.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-23-ai-thermic-effect-of-food-calorie-burn.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-03-ai-protein-amino-acid-optimization-muscle-growth.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-22-ai-training-frequency-optimization-muscle-growth-recovery.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-04-ai-body-composition-analysis-tracking-fat-loss-muscle-gain.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-21-ai-mind-muscle-connection-form-focus-training.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-05-ai-gut-microbiome-optimization-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-20-ai-body-composition-goal-setting-smart-targets.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-06-ai-autophagy-optimization-cellular-cleanse-body-transformation.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-19-ai-nutrition-tracking-macros-calories-automation.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-07-ai-carb-periodization-metabolic-flexibility-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-18-ai-rest-day-optimization-recovery-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-08-ai-blood-flow-restriction-training-muscle-growth-recovery.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-17-ai-protein-timing-muscle-protein-synthesis.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-09-ai-rep-tempo-optimization-eccentric-concentric-hypertrophy.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-16-ai-zone-2-training-aerobic-base-fat-burn.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-10-ai-insulin-sensitivity-optimization-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-15-ai-nutrition-timing-body-recomposition-windows.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-11-ai-cortisol-management-body-composition-stress-optimization.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-14-ai-body-fat-measurement-accuracy.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-12-ai-neat-optimization-non-exercise-activity-thermogenesis-fat-loss.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-31-ai-gut-microbiome-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-13-ai-body-fat-set-point-reset-sustainable-weight-loss.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-30-ai-chrononutrition-circadian-meal-timing.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-14-ai-body-recomposition-fat-loss-muscle-gain-simultaneous.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-29-ai-fat-oxidation-optimization-fat-burning-zone.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-15-ai-nutrient-partitioning-calorie-disposition-muscle-vs-fat.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-28-ai-training-volume-optimization-minimum-effective-dose.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-16-ai-anabolic-window-optimization-post-workout-nutrition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-27-ai-hunger-craving-management-fat-loss.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-17-ai-metabolic-flexibility-train-body-burn-fat-carbs.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-26-ai-supplement-stack-optimization-personalized.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-18-ai-exercise-selection-optimization-anatomy-biomechanics.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-25-ai-personalized-body-transformation-plans.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-19-ai-muscle-fiber-typing-optimization-fast-slow-twitch.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-24-ai-inflammation-optimization-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-20-ai-training-density-optimization-workout-efficiency.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-20</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-23-ai-electrolyte-optimization-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-21-ai-blood-glucose-optimization-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -464,9 +175,453 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-21-ai-blood-glucose-optimization-body-composition.html</loc>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-23-ai-electrolyte-optimization-body-composition.html</loc>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-24-ai-inflammation-optimization-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-25-ai-personalized-body-transformation-plans.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-26-ai-supplement-stack-optimization-personalized.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-27-ai-hunger-craving-management-fat-loss.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-27</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-28-ai-training-volume-optimization-minimum-effective-dose.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-29-ai-fat-oxidation-optimization-fat-burning-zone.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-30-ai-chrononutrition-circadian-meal-timing.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-31-ai-gut-microbiome-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-14-ai-body-fat-measurement-accuracy.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-15-ai-nutrition-timing-body-recomposition-windows.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-16-ai-zone-2-training-aerobic-base-fat-burn.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-17-ai-protein-timing-muscle-protein-synthesis.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-18-ai-rest-day-optimization-recovery-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-19-ai-nutrition-tracking-macros-calories-automation.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-20-ai-body-composition-goal-setting-smart-targets.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-21-ai-mind-muscle-connection-form-focus-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-22-ai-training-frequency-optimization-muscle-growth-recovery.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-23-ai-thermic-effect-of-food-calorie-burn.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-24-ai-reverse-dieting-calories-metabolic-rebound.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-25-ai-rest-interval-optimization-between-sets.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-26-ai-lean-bulking-muscle-gain-without-fat-gain.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-27-ai-travel-fitness-maintain-progress-on-the-road.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-27</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-28-ai-deload-week-optimization-recovery-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-29-ai-posture-training-desk-workers-spinal-health.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-30-ai-mobility-training-range-of-motion.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-08-31-ai-plyometric-power-training-explosive-athleticism.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-01-ai-lactate-threshold-vo2-max-optimization.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-02-ai-grip-strength-forearm-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-03-ai-omega-3-optimization-healthy-fats.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-04-ai-creatine-optimization-muscle-performance.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-05-ai-red-light-therapy-photobiomodulation-recovery.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-06-ai-caffeine-optimization-timing-genetics.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-07-ai-plant-based-protein-vegan-muscle-growth.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-08-ai-menstrual-cycle-phase-training-nutrition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-09-ai-sprint-interval-training-all-out-intervals.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-10-ai-bone-density-training-osteoporosis-prevention.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-11-ai-glp1-muscle-preservation-weight-loss-drugs.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-12-ai-tendon-connective-tissue-training-collagen.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-13-ai-sarcopenia-prevention-age-related-muscle-loss.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-14-ai-balance-stability-training-proprioception.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-15-ai-post-activation-potentiation-contrast-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-16-ai-carb-cycling-personalized-body-recomposition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-17-ai-shift-work-training-nutrition-night-shift.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-18-ai-intensity-techniques-drop-sets-rest-pause-myo-reps.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-19-ai-swimming-stroke-analysis-full-body-fitness.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-20-ai-gait-analysis-walking-mechanics-injury-risk.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-20</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-23-ai-alcohol-body-recomposition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-24-ai-perimenopause-menopause-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-25-ai-rucking-load-carriage-training-fat-loss.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-26-ai-cycling-power-training-ftp-body-recomposition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-27-ai-race-day-fueling-carb-loading-endurance.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-28-ai-lagging-muscle-specialization-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-29-ai-knee-health-joint-friendly-strength-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-09-30-ai-core-training-trunk-stability-anti-rotation.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-30</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-01-ai-muscle-soreness-doms-management-training-recovery.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-02-ai-reaction-time-training-agility-reflexes.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-03-ai-exercise-snacks-micro-workouts-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-04-ai-visceral-fat-reduction-smart-training-nutrition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-04</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-05-ai-blood-pressure-exercise-hypertension-optimization.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-06-ai-guided-foam-rolling-self-myofascial-release.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-06</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-07-ai-detraining-reversal-return-to-training.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-08-ai-velocity-based-training-bar-speed-autoregulation.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-09-ai-altitude-training-hypoxic-conditioning-endurance.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-10-ai-exercise-brain-health-cognitive-performance.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-11-ai-kettlebell-training-ballistic-strength-conditioning.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-12-ai-shoulder-health-rotator-cuff-injury-prevention.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-12</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-13-ai-vitamin-d-sunlight-optimization-body-composition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-14-ai-strength-training-beginners-first-90-days.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-16-ai-walking-fat-loss-zone-2-body-recomposition.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-17-ai-metabolism-myths-weight-loss-ai-tracking.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-18-ai-meal-prep-high-protein-fat-loss.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-19-ai-protein-breakfast-fat-loss-morning-fuel.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-20-ai-creatine-fat-loss-cut-water-weight-myth.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-10-21-ai-budget-high-protein-meals-fat-loss.html</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-21</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -773,144 +928,6 @@
     <loc>https://ai-body.thealpha-secret.xyz/blog/posts/how-sleep-optimization-with-ai-supercharges-body-transformation.html</loc>
     <changefreq>monthly</changefreq>
     <lastmod>2026-07-21</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-20-ai-training-density-optimization-workout-efficiency.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-20</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-19-ai-muscle-fiber-typing-optimization-fast-slow-twitch.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-18-ai-exercise-selection-optimization-anatomy-biomechanics.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-18</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-17-ai-metabolic-flexibility-train-body-burn-fat-carbs.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-17</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-16-ai-anabolic-window-optimization-post-workout-nutrition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-16</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-15-ai-nutrient-partitioning-calorie-disposition-muscle-vs-fat.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-15</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-14-ai-body-recomposition-fat-loss-muscle-gain-simultaneous.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-14</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-13-ai-body-fat-set-point-reset-sustainable-weight-loss.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-13</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-12-ai-neat-optimization-non-exercise-activity-thermogenesis-fat-loss.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-11-ai-cortisol-management-body-composition-stress-optimization.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-11</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-10-ai-insulin-sensitivity-optimization-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-09-ai-rep-tempo-optimization-eccentric-concentric-hypertrophy.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-09</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-08-ai-blood-flow-restriction-training-muscle-growth-recovery.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-08</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-07-ai-carb-periodization-metabolic-flexibility-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-06-ai-autophagy-optimization-cellular-cleanse-body-transformation.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-05-ai-gut-microbiome-optimization-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-04-ai-body-composition-analysis-tracking-fat-loss-muscle-gain.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-04</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-03-ai-protein-amino-acid-optimization-muscle-growth.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-02-ai-metabolic-adaptation-weight-loss-plateau.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-07-01-ai-circadian-chrononutrition-biohacking-body-composition.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-07-01</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-30-ai-fitness-app-fatigue-unified-body-transformation.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-06-30</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-28-ai-rewriting-body-transformation.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-06-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai-body.thealpha-secret.xyz/blog/posts/2026-06-27-ai-body-recomposition-intelligent-calorie-cycling.html</loc>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-06-27</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
